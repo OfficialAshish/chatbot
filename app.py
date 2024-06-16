@@ -82,7 +82,7 @@ def summarize_chat():
 import tensorflow as tf
 import numpy as np
 import random
-from  keras.preprocessing.sequence import pad_sequences
+from  tensorflow.keras.preprocessing.sequence import pad_sequences
 
 model = tf.keras.models.load_model('model/utils/mental_health_chatbot.h5')
 tokenizer = pickle.load(open('model/utils/tokenizer.pkl', 'rb'))
