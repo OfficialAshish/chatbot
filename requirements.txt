@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+matplotlib
+numpy
+nltk
+pandas
+requests
+scikit-learn
+tensorflow
+scipy
+seaborn
+gunicorn
